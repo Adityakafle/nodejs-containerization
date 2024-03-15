@@ -1,16 +1,16 @@
 {
-  "name": "sample-node-project",
+  "name": "nodejs-containerization",
   "version": "1.0.0",
-  "description": "Sample Node.js Project",
-  "main": "app.js",
+  "description": "node-js-app",
+  "main": "7777",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "Adem Cemil YALCIN",
+  "author": "Aditya-Jaishi",
   "license": "ISC",
   "dependencies": {
-    "express":"latest",
-    "ejs":"latest"
+    "ejs": "^3.1.9",
+    "express": "^4.18.3"
   }
 }
